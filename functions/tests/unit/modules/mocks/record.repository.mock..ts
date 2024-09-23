@@ -1,7 +1,6 @@
 import { IRecordEntity } from "../../../../src/modules/records/interfaces/record.entity.interface";
 import { IFirebaseRepository } from "../../../../src/modules/shared/repositories/interfaces/firebase-repository.interface";
 
-// Mock do repositório Firebase
 export const mockRecordRepository: jest.Mocked<
   IFirebaseRepository<IRecordEntity>
 > = {

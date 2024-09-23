@@ -7,7 +7,6 @@ import { mockRecordRepository } from "../mocks/record.repository.mock.";
 describe("RecordService", () => {
   let recordService: RecordService;
 
-  // Configuração do ambiente de teste Firebase
   setupFirebaseTestEnv();
 
   beforeEach(() => {

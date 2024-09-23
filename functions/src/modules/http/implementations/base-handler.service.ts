@@ -1,5 +1,3 @@
-// src/handlers/BaseHandlerService.ts
-
 import * as functions from "firebase-functions";
 import { DocumentSnapshot } from "firebase-admin/firestore";
 import { IHttpResponse } from "../interfaces/http-response.service.interface";
